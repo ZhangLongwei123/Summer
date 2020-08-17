@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .inputfile {
+            filter:alpha(opacity:0);opacity: 0;
+        }
+        .inputfile2 {background-color: blue;display: inline-block;text-align: center; width: 180px; height: 50px; line-height: 32px;
+            border-radius: 16px; border: 1px solid #e5e5e5; cursor: pointer; *display: inline; *zoom: 1; float: none;
+            -webkit-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out;}
+        .dataSubmit {background-color: pink;display: inline-block;text-align: center; width: 305px; height: 80px; line-height: 32px;
+            border-radius: 16px; border: 1px solid #e5e5e5; cursor: pointer; *display: inline; *zoom: 1; float: none;
+            -webkit-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out;}
+    </style>
+</head>
+<body>
+
+    <form action="/upload" method="post" enctype="multipart/form-data" style="margin: 0 auto;text-align: center;border: 1px solid red;">
+        选择文件:<span class="inputfile2">
+            <input type="file" name="file"/>
+        </span><br/>
+        <input type="submit" value="提交" class="dataSubmit"/>
+    </form>
+</body>
+</html>

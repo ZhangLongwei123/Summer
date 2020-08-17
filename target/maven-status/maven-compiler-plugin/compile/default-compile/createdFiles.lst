@@ -1,0 +1,4 @@
+com\aaa\conf\FileSizeConf.class
+com\aaa\SysApplication.class
+com\aaa\controller\UploadController.class
+com\aaa\conf\MVCConfiguration.class
